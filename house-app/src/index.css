@@ -1,0 +1,79 @@
+/* general css */
+
+*{
+  padding: 5;
+}
+
+.body {
+  font-family: 'monserrat', san sans-serif;
+  background-color: #0b0b0c;
+  color: #0e0f0f;
+}
+
+/*css for navbar*/
+.navbar {
+  background-color: #04100f;
+}
+
+/* css for the main header */
+header {
+  padding: 50px 15px 15px;
+}
+
+header h1 {
+  text-align: center;
+  color: #beb7b5;
+  border: solid #151514;
+  padding: 5px;
+}
+
+/*css for the main house list*/
+main {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*new house area on the house list*/
+.newhouse {
+  text-align: center;
+  padding: 50px;
+}
+
+/*List of homes*/
+
+.house-list h2 {
+  color: rgb(170, 158, 158);
+  padding: 15px 0px;
+  border-bottom: rgb(96, 16, 16) solid;
+  text-align: center;
+}
+
+.housename h3 {
+  color: rgb(53, 43, 43);
+}
+
+.housename-name h4 {
+padding: 0px 30px;
+color: #67a9ec;
+font-size: 40px;
+}
+
+.homedescription label {
+  padding: 0px 15px;
+}
+
+.homedescription .room {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.homedescription .area {
+  padding: 0px 30px;
+}
+
+.addRoom {
+  background-color: #ffffff;
+  border: solid;
+}
+
